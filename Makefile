@@ -8,7 +8,7 @@ LDLIBS = $(shell sdl2-config --libs)
 TARGET = pacman-emu
 
 SOURCES = \
-	src/Main.c \
+	src/main.c \
 	src/emulator/emulator.c \
 	src/memory/memory.c \
 	src/video/video.c \
